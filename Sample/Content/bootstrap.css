@@ -2090,9 +2090,14 @@ fieldset[disabled] .btn-default.active {
 }
 
 .btn-primary {
-  color: #ffffff;
-  background-color: #428bca;
-  border-color: #357ebd;
+    color: #89613C;
+    border-color: #89613C;
+}
+
+.center-elem {
+    margin: auto;
+    width: 60%;
+    padding: 140px;
 }
 
 .btn-primary:hover,
@@ -4520,7 +4525,9 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-inverse .navbar-nav > li > a {
-  color: #999999;
+  color: #89613C;
+  font-size:18px;
+  font-family:'Courier New';
 }
 
 .navbar-inverse .navbar-nav > li > a:hover,
