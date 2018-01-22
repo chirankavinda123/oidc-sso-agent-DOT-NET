@@ -154,7 +154,6 @@
     </Content>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Loggedout.aspx" />
-    <Content Include="road.jpeg" />
     <Content Include="RpIFrame.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />

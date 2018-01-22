@@ -48,14 +48,14 @@ namespace Agent
             // Following if block is related to oidc single logout. 
             // This block gets hit when passive authentication falis.
             if (context.Request.Params["error"] != null) {
-                context.Session.Clear();
+                context.Session.Abandon();
                 context.Response.Redirect(ssoAgentConfig.Oidc.PostLogoutRedirectUri);
             }
 
             //Handling idp redirection to callback url after successful logout.
             if (requestResolver.IsSLOResponse())
             {
-                context.Session.Clear();
+                context.Session.Abandon();
                 context.Response.Redirect(ssoAgentConfig.Oidc.PostLogoutRedirectUri);
             }
         }

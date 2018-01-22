@@ -1,17 +1,18 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Web;
 using System.Web.UI;
-using System.Web.UI.HtmlControls;
 
 namespace Sample
 {
     public partial class _Default : Page
     {
-        protected HtmlGenericControl frame1;
+        public Dictionary<String, String> Claims { get; set; }
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            this.rpIFrame.Attributes.Add("src", "rpIFrame.aspx");
-           
+            Claims = (Dictionary<String, String>)HttpContext.Current.Session["claims"];
+            this.rpIFrame.Attributes.Add("src", "rpIFrame.aspx");           
         }
     }
 }

@@ -2090,14 +2090,16 @@ fieldset[disabled] .btn-default.active {
 }
 
 .btn-primary {
-    color: #89613C;
-    border-color: #89613C;
+    color: #705135;
+    border-color: #705135;
+    width: 170px;
+    height: 59px;
 }
 
 .center-elem {
     margin: auto;
     width: 60%;
-    padding: 140px;
+    padding: 144px;
 }
 
 .btn-primary:hover,
@@ -2106,7 +2108,7 @@ fieldset[disabled] .btn-default.active {
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
   color: #ffffff;
-  background-color: #3276b1;
+  background-color: black;
   border-color: #285e8e;
 }
 
@@ -4525,9 +4527,10 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-inverse .navbar-nav > li > a {
-  color: #89613C;
-  font-size:18px;
+  color: #705135;
   font-family:'Courier New';
+  font-size:20px;
+  font-weight:bold;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover,
