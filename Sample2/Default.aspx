@@ -8,12 +8,12 @@
         
          <% if (Claims == null)
             { %>
-               <p style="margin: 0 auto;width: 321px;"><a href="oidcsso" class="btn btn-primary btn-lg" style="background-color:transparent;background-color: transparent;
+               <p style="margin: 0 auto;width: 321px;"><a href="samlsso" class="btn btn-primary btn-lg" style="background-color:transparent;background-color: transparent;
             height: 96px;width:238px;font-size: 35px;padding-top:20px;">Sign in &raquo;</a></p> 
          <% }
             else
             { %>
-               <p style="margin: 0 auto;width: 321px;"><a href="oidclogout" class="btn btn-primary btn-lg" style="background-color:transparent;background-color: transparent;
+               <p style="margin: 0 auto;width: 321px;"><a href="samllogout" class="btn btn-primary btn-lg" style="background-color:transparent;background-color: transparent;
             height: 96px;width:238px;font-size: 35px;padding-top:20px;">Sign out &raquo;</a></p> 
          <% } %>
     </div>
@@ -34,7 +34,7 @@
         <div class="row">
             <div class="col-md-12">
                 <h2>Discover more by logging in...</h2>
-                <p>you can easily login to trip guider by using your wso2 Identity Server credentials.</p>
+                <p>you can easily login to Music Store by using your wso2 Identity Server credentials.</p>
             </div>
         </div>
     <% } %>
